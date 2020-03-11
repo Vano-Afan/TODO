@@ -25,7 +25,6 @@ import React from 'react';
     }
     handleSubmit(event){
       event.preventDefault()
-      eval(this[event.target.name]).bind(this)(event)
     }
     task(event) {
       this.setState({task:event.target.value})
